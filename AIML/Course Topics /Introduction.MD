@@ -2,7 +2,7 @@
 
 
 | Track      | Description | Topics | Links   |
-| ----------- | ----------- | -------- |
+| ----------- | ----------- | -------- |------|
 | Introduction to Programming   | Learn the basics of programming      |   : Variables, data types, control structures, functions, arrays, and basic algorithms.|    [Python Programming](https://www.youtube.com/watch?v=t2_Q2BRzeEE&list=PLGjplNEQ1it8-0CmoljS5yeV-GlKSUEt0)      |
 
 
