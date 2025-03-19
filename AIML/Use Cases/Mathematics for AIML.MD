@@ -99,7 +99,7 @@ How These Concepts Fit Into Projects
 
 Let’s see how they all work together in a real-world project example:
 
-***Project: Predicting Customer Retention in Marketing
+Project: Predicting Customer Retention in Marketing
 
 Linear Algebra: Use matrix operations to calculate relationships between customer behaviors and retention rates.
 
