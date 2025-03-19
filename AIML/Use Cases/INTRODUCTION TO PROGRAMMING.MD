@@ -2,6 +2,7 @@
 1. Variables and Data Types
 Code Example:
 python
+```
 # Storing and printing user details
 name = "John Doe"          # String
 age = 30                   # Integer
@@ -9,11 +10,13 @@ height = 5.8               # Float
 is_active = True           # Boolean
 
 print(f"Name: {name}, Age: {age}, Height: {height}, Active: {is_active}")
+```
 Real-World Use:
 •	Application in Projects: Variables and data types form the foundation of any program. For example, in a user management system, you could store user details like names (strings), ages (integers), or activity status (booleans) in a database.
 2. Control Structures
 Code Example:
 python
+```
 # Determine user's access level based on age
 age = int(input("Enter your age: "))
 
@@ -21,6 +24,7 @@ if age < 18:
     print("Access Denied: You must be at least 18 years old.")
 else:
     print("Access Granted: Welcome!")
+```
 Real-World Use:
 •	Application in Projects: Decision-making is crucial in applications like access control systems. For example, online platforms can restrict content based on user age (e.g., parental controls).
 3. Loops
