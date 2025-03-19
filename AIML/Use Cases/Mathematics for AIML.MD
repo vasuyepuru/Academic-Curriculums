@@ -1,5 +1,6 @@
 Here are Python coding examples for linear algebra, calculus, probability, and statistics, along with their applications in real-world projects.
-##1. Linear Algebra
+
+1. Linear Algebra
 
 Code Example
 
