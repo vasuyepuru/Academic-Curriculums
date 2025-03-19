@@ -1,5 +1,5 @@
 
-1. Variables and Data Types
+1.Variables and Data Types
 Code Example:
 python
 ```
@@ -30,6 +30,7 @@ Real-World Use:
 3. Loops
 Code Example:
 python
+```
 # Display numbers from 1 to 10
 for i in range(1, 11):
     print(i)
@@ -42,22 +43,26 @@ while True:
         break
     total += num
 print(f"Total Sum: {total}")
+```
 Real-World Use:
 •	Application in Projects: Loops are indispensable in report generation or automating repetitive tasks, such as processing user data or transactions.
 4. Functions
 Code Example:
 python
+```
 # Calculate the square of a number
 def square(number):
     return number * number
 
 num = int(input("Enter a number: "))
 print(f"Square of {num}: {square(num)}")
+```
 Real-World Use:
 •	Application in Projects: Functions modularize code, enabling reuse across various parts of a project. For example, in financial software, you might use functions to calculate taxes or discounts.
 5. Arrays (Using Lists)
 Code Example:
 python
+```
 # Find the average of a list of numbers
 numbers = [10, 20, 30, 40, 50]
 average = sum(numbers) / len(numbers)
@@ -66,11 +71,13 @@ print(f"Average: {average}")
 # Add a new number to the list
 numbers.append(60)
 print("Updated List:", numbers)
+```
 Real-World Use:
 •	Application in Projects: Arrays (lists in Python) are essential for storing and manipulating data in inventory systems, like keeping track of product prices or stock levels.
 6. Basic Algorithms
 Linear Search:
 python
+```
 # Search for an element in a list
 def linear_search(array, target):
     for i, value in enumerate(array):
@@ -81,9 +88,11 @@ def linear_search(array, target):
 array = [10, 20, 30, 40, 50]
 target = int(input("Enter the number to search for: "))
 print(linear_search(array, target))
+```
 •	Application in Projects: This can be used in small-scale database searches, such as finding a specific product ID in an inventory.
 Sorting (Bubble Sort):
 python
+```
 # Bubble Sort Algorithm
 def bubble_sort(array):
     n = len(array)
@@ -95,5 +104,6 @@ def bubble_sort(array):
 
 numbers = [64, 34, 25, 12, 22, 11, 90]
 print("Sorted Array:", bubble_sort(numbers))
+```
 •	Application in Projects: Sorting algorithms can help in real-time ranking systems, such as sorting products by price or relevance in e-commerce platforms.
 
