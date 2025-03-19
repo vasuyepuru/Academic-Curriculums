@@ -1,5 +1,6 @@
 
 1.Variables and Data Types
+
 Code Example:
 python
 ```
@@ -13,7 +14,9 @@ print(f"Name: {name}, Age: {age}, Height: {height}, Active: {is_active}")
 ```
 Real-World Use:
 •	Application in Projects: Variables and data types form the foundation of any program. For example, in a user management system, you could store user details like names (strings), ages (integers), or activity status (booleans) in a database.
+
 2. Control Structures
+
 Code Example:
 python
 ```
@@ -27,6 +30,7 @@ else:
 ```
 Real-World Use:
 •	Application in Projects: Decision-making is crucial in applications like access control systems. For example, online platforms can restrict content based on user age (e.g., parental controls).
+
 3. Loops
 Code Example:
 python
@@ -46,7 +50,9 @@ print(f"Total Sum: {total}")
 ```
 Real-World Use:
 •	Application in Projects: Loops are indispensable in report generation or automating repetitive tasks, such as processing user data or transactions.
+
 4. Functions
+
 Code Example:
 python
 ```
@@ -59,7 +65,9 @@ print(f"Square of {num}: {square(num)}")
 ```
 Real-World Use:
 •	Application in Projects: Functions modularize code, enabling reuse across various parts of a project. For example, in financial software, you might use functions to calculate taxes or discounts.
+
 5. Arrays (Using Lists)
+
 Code Example:
 python
 ```
@@ -74,7 +82,9 @@ print("Updated List:", numbers)
 ```
 Real-World Use:
 •	Application in Projects: Arrays (lists in Python) are essential for storing and manipulating data in inventory systems, like keeping track of product prices or stock levels.
+
 6. Basic Algorithms
+
 Linear Search:
 python
 ```
