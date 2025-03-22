@@ -67,3 +67,81 @@ plt.xticks(rotation=45)
 plt.show()
 
 ```
+
+
+
+
+
+1. Data Preprocessing
+
+Example: Handling missing values and converting data types.
+
+```
+import pandas as pd
+
+# Load the dataset
+data = pd.read_csv('netflix.csv')
+
+# Check for missing values
+print("Missing values before handling:")
+print(data.isnull().sum())
+
+# Fill missing values in 'user_rating_score' with the column mean
+data['user_rating_score'].fillna(data['user_rating_score'].mean(), inplace=True)
+
+# Fill missing values in 'ratingdescription' with a default value
+data['ratingdescription'].fillna("Unknown", inplace=True)
+
+# Check data types and convert 'release_year' to datetime
+data['release_year'] = pd.to_datetime(data['release_year'], format='%Y', errors='coerce')
+
+print("Missing values after handling:")
+print(data.isnull().sum())
+```
+
+2. Data Visualization
+
+Example: Visualizing the distribution of user_rating_score.
+
+```
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+# Plot the distribution of user rating scores
+plt.figure(figsize=(10, 5))
+sns.histplot(data['user_rating_score'], bins=20, kde=True, color='blue')
+plt.title('Distribution of User Ratings')
+plt.xlabel('User Rating Score')
+plt.ylabel('Frequency')
+plt.show()
+
+# Visualize rating levels over years
+plt.figure(figsize=(12, 6))
+sns.countplot(data=data, x='release_year', hue='ratinglevel', palette='viridis')
+plt.title('Rating Levels Over the Years')
+plt.xlabel('Release Year')
+plt.ylabel('Count')
+plt.xticks(rotation=45)
+plt.show()
+```
+
+3. Data Cleaning
+
+Example: Removing duplicate rows and handling invalid data.
+
+```
+# Remove duplicate rows
+print(f"Rows before removing duplicates: {len(data)}")
+data = data.drop_duplicates()
+print(f"Rows after removing duplicates: {len(data)}")
+
+# Example of finding invalid data in 'user_rating_score'
+invalid_scores = data[data['user_rating_score'] > 100]  # Assuming 100 is the max valid score
+print("Invalid user rating scores:")
+print(invalid_scores)
+
+# Drop rows with invalid user rating scores (if any)
+data = data[data['user_rating_score'] <= 100]
+print(f"Rows after cleaning invalid scores: {len(data)}")
+
+```
