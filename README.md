@@ -12,7 +12,7 @@
 | Natural Language Processing (NLP)   |
 | Computer Vision  | 
 
-[Download Python Latest Vesion Here] (https://www.python.org/downloads/release/python-3124/)
+[Download Python Latest Vesion Here](https://www.python.org/downloads/release/python-3124/)
 
 [Download Jupyter NoteBook Latest Version Here](https://jupyter.org/install)
 
